@@ -22499,6 +22499,7 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Function.prototype.cnds.OnFunction,
 	cr.plugins_.TextBox.prototype.exps.Text,
 	cr.plugins_.TextBox.prototype.cnds.CompareText,
+	cr.system_object.prototype.acts.LoadState,
 	cr.plugins_.AJAX.prototype.acts.Request,
 	cr.plugins_.AJAX.prototype.cnds.OnAnyComplete,
 	cr.plugins_.AJAX.prototype.exps.LastData
